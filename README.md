@@ -1,6 +1,7 @@
+ 
  Testes de Performance com Apache JMeter — API Pets
 
- Sobre o projeto
+📌 Sobre o projeto
 
 Este projeto foi desenvolvido como parte do desafio prático de Testes de Performance com Apache JMeter.
 
@@ -11,7 +12,7 @@ O objetivo é avaliar o comportamento de uma API REST de cadastro de pets utiliz
 
 Os testes contemplam autenticação e operações de cadastro e consulta de pets.
 
- Objetivos
+🎯 Objetivos
 
 * Implementar testes de performance utilizando Apache JMeter.
 * Configurar um Thread Group com modelo de carga fechado.
@@ -20,7 +21,7 @@ Os testes contemplam autenticação e operações de cadastro e consulta de pets
 * Validar os endpoints POST /pets e GET /pets.
 * Analisar os resultados obtidos durante as execuções.
 
- Tecnologias e ferramentas
+🛠️ Tecnologias e ferramentas
 
 * Apache JMeter 5.6.3
 * API REST Cadastro de Pets
@@ -29,7 +30,7 @@ Os testes contemplam autenticação e operações de cadastro e consulta de pets
 * JSON
 * Git e GitHub
 
- Cenários de teste
+🧪 Cenários de teste
 
 Os dois Thread Groups executam o seguinte fluxo:
 
@@ -65,7 +66,7 @@ rate(5/min) random_arrivals(2 min) pause(0 min)
 
 Essa configuração programa a chegada de usuários de acordo com uma taxa de 5 por minuto, durante uma janela de 2 minutos.
 
- Resultados
+📊 Resultados
 
 Os resultados das execuções foram exportados em arquivos CSV e estão disponíveis neste repositório:
 
@@ -80,7 +81,7 @@ Os relatórios permitem consultar métricas como:
 * Percentual de erros.
 * Throughput (vazão de requisições).
 
- Estrutura do projeto
+📁 Estrutura do projeto
 
 testes-performance-pets-jemeter/
 │
@@ -89,7 +90,7 @@ testes-performance-pets-jemeter/
 ├── resultado-modelo-aberto.csv
 └── README.md
 
- Como executar o projeto
+▶️ Como executar o projeto
 
 1. Instale o Apache JMeter 5.6.3 ou versão compatível.
 2. Inicie a API Cadastro de Pets e confirme que está disponível em http://localhost:3000.
@@ -100,7 +101,7 @@ testes-performance-pets-jemeter/
 
 Importante: a API precisa estar em execução durante os testes. As credenciais e os dados utilizados devem corresponder aos cadastrados na API.
 
- Considerações finais
+📌 Considerações finais
 
 O projeto possibilitou a aplicação prática de conceitos de testes de performance, autenticação JWT, simulação de usuários virtuais e análise de métricas utilizando Apache JMeter.
 
