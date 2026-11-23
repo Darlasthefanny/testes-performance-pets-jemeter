@@ -1,0 +1,5 @@
+Label,# Samples,Average,Min,Max,Std. Dev.,Error %,Throughput,Received KB/sec,Sent KB/sec,Avg. Bytes
+Login,10,29,21,45,7.57,0.000%,.10581,0.04,0.03,411.0
+Cadastrar Pet,10,0,0,1,0.46,0.000%,.10583,0.03,0.05,325.0
+Consultar Pets,10,1,1,2,0.46,0.000%,.10583,9.00,0.04,87110.0
+TOTAL,30,10,0,45,14.18,0.000%,.31742,9.08,0.11,29282.0
